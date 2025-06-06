@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  analyzer:
+    build: .
+    volumes:
+      - ./access.log:/app/access.log:ro
